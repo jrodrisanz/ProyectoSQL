@@ -13,6 +13,8 @@ Los csvs no seguían una lógica clara y contenían información redudante, por 
 
 1. Eliminar la columna last_update: todas las filas tenían el mismo valor, además, esta columna se encontraba en todos los csvs, por lo que he decidido eliminarla al no encontrale ningún valor.
 
+2. Comprobar duplicados: en el archivo actores eliminamos un duplicado.
+
 2. Limpieza de nulos: eliminar la columna original_language_id del csv film.
 
 3. Eliminar columnas release_year, ya que todas las películas son de 2006, por lo que es un dato redundante
@@ -29,7 +31,9 @@ El archivo old_hdd contenía información sobre actores y sus diversas película
 
 Teníamos un archivo de actores y otro de películas, sin embargo, varios actores pueden estar en una película y varias películas pueden tener un mismo actor. Esta relación many-to-many se puede simplificar a través de la columna old_hdd, o lo que yo interpreto como si se tratase de una columna llamada "reparto".
 
-Para trabajar con esta tabla, teníamos que introducir en ella únicamente el id de actores y de películas, lo que conseguí haciendo varios merge()
+Para trabajar con esta tabla, teníamos que introducir en ella únicamente el id de actores y de películas, lo que conseguí haciendo varios merge().
+
+Por otro lado, observando las posibles relaciones del archivo rental, hemos tenido un problema ya que hay ids que llegan hasta el 4500. Podemos suponer 2 cosas, que este archivo continuó recogiendo información mucho más tiempo que el resto de archivos, o que el resto de archivos tuvo una pérdida de información y está incompleta. En cualquier caso, la única solución que he encontrado es quedarme con los 1000 primeros ids, aquellos con los que puedo manejar información relevante del resto de archivos.
 
 ## Relaciones entre archivos
 
