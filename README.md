@@ -34,47 +34,47 @@ Para trabajar con esta tabla, teníamos que introducir en ella únicamente el id
 ## Relaciones entre archivos
 
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/relaciones.png
+[![relaciones.png](https://i.postimg.cc/ydPzL0sn/relaciones.png)](https://postimg.cc/G8HN28Bs)
 
 
 ## Querys
 
 1. obtener el nombre de todas las películas ordenadas alfabéticamente
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query1.png
+[![query1.png](https://i.postimg.cc/3J0cR2V6/query1.png)](https://postimg.cc/crZmktsM)
 
 2. obtener el nombre de todos los actores que hayan actuado en al menos una película 
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query2.png
+[![query2.png](https://i.postimg.cc/zvg69W19/query2.png)](https://postimg.cc/jnRMfD2X)
 
 3. obtener la cantidad de alquileres que se han realizado en total:
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query3.png
+[![query3.png](https://i.postimg.cc/KcMWcndW/query3.png)](https://postimg.cc/vDGh3687)
 
 4. Obtener el numero de veces que la gente ha alquilado películas de la categoría Drama
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query4.png
+[![query4.png](https://i.postimg.cc/xdZsnCgY/query4.png)](https://postimg.cc/PLmbMdBF)
 
 5. obtener las películas que pertenecen a la categoría "Acción"
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query5.png
+[![query5.png](https://i.postimg.cc/MGnDPwwL/query5.png)](https://postimg.cc/gwP8jfny)
 
 6. Obtener el nombre y la cantidad de películas de todas las categorías, ordenadas por cantidad descendente:
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query6.png
+[![query6.png](https://i.postimg.cc/cLb78z3B/query6.png)](https://postimg.cc/0z7KTccz)
 
 7. nombre y número de veces que ha sido alquilada una película
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query7.png
+[![query7.png](https://i.postimg.cc/y6jZZ543/query7.png)](https://postimg.cc/G9Bt0Xpb)
 
 8. Obtener la fecha en la que se realizó el primer alquiler de una película
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query8.png
+[![query8.png](https://i.postimg.cc/1X7XYksW/query8.png)](https://postimg.cc/4HtXYFKt)
 
 9. Obtener la cantidad de alquileres que se realizaron en cada mes del año 2005:
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query9.png
+[![query9.png](https://i.postimg.cc/1R7zPZ1B/query9.png)](https://postimg.cc/w3JzcZvR)
 
 10. Obtener el título y la descripción de todas las películas que contienen la palabra "astronaut" en su descripción:
 
-https://raw.githubusercontent.com/jrodrisanz/ProyectoSQL/main/images/query10.png
+[![query10.png](https://i.postimg.cc/Pr8djp4f/query10.png)](https://postimg.cc/fJZG7bp1)
