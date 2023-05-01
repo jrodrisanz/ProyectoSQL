@@ -11,15 +11,15 @@ Este proyecto consiste en la creación de una base de datos en SQL utilizando 7 
 
 Los csvs no seguían una lógica clara y contenían información redudante, por lo que previamente ha sido necesario realizar una limpieza de datos utilizando pandas.
 
-    - Eliminar la columna last_update: todas las filas tenían el mismo valor, además, esta columna se encontraba en todos los csvs, por lo que he decidido eliminarla al no encontrale ningún valor.
+1. Eliminar la columna last_update: todas las filas tenían el mismo valor, además, esta columna se encontraba en todos los csvs, por lo que he decidido eliminarla al no encontrale ningún valor.
 
-    - Limpieza de nulos: eliminar la columna original_language_id del csv film.
+2. Limpieza de nulos: eliminar la columna original_language_id del csv film.
 
-    - Eliminar columnas release_year, ya que todas las películas son de 2006, por lo que es un dato redundante
+3. Eliminar columnas release_year, ya que todas las películas son de 2006, por lo que es un dato redundante
 
-    - Todos las películas estan en Inglés, por lo que para facilitar los siguientes pasos sustituimos en la columna language 1 por English.
+4. Todos las películas estan en Inglés, por lo que para facilitar los siguientes pasos sustituimos en la columna language 1 por English.
 
-    - Ponemos los nombres y apellidos de todas las columnas en un formato apropiado: todas las letras estaban en mayúsculas, por lo que utilizamos la función .capitalize(), que deja la primera letra en mayus. y el resto en minus.
+5. Ponemos los nombres y apellidos de todas las columnas en un formato apropiado: todas las letras estaban en mayúsculas, por lo que utilizamos la función .capitalize(), que deja la primera letra en mayus. y el resto en minus.
 
 ## Reorganización de tablas
 
